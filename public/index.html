@@ -1,13 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pokedex</h1>
+    </header>
+    <main>
+      <div class="search-container">
+        <input type="text" id="pokemon-name" placeholder="Enter Pokémon name" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="pokemon-info" id="pokemon-info">
+        <!-- Pokémon information will be displayed here -->
+      </div>
+      <div id="card-abilities">
+        <!-- Pokémon abilities will be displayed here -->
+      </div>
+    </main>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
